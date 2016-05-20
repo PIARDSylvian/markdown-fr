@@ -1,6 +1,6 @@
 # Les titres
 
-Comme nous avons commencer a écrire un document markdown, nous avons besoins d'un titre et d'un sous titre.
+Comme nous avons commencer a écrire un document markdown, nous avons besoins d'un titre et d'un sous titre..
 
 Markdown suporte deux type d' entete, Setext and atx.
 
