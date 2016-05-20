@@ -1,54 +1,55 @@
-# Titles
+# Les titres
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Comme nous avons commencer a écrire un document markdown, nous avons besoins d'un titre et d'un sous titre.
 
-Markdown supports two styles of headers, Setext and atx.
+Markdown suporte deux type d' entete, Setext and atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Setext-style d' entete sont souligné par les signes égal (pour le premier nieveau d'entete) est des tirets (pour le second niveau d' entete). Par exemple: 
 
 ```
-This is an H1
+C'est un H1
 =============
 
-This is an H2
+C'est un H2
 -------------
 ```
 
-Any number of underlining =’s or -’s will work.
+Tout nombres sousligné par = ou - fonctioneras.
 
 Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Atx-style d'entete utilise de 1-6 characteres dièse au debut de la ligne, est correspond à l'importance de l'entete. Par exemple:
 
 ```
-# This is an H1
+# C'est un H1
 
-## This is an H2
+## C'est un H2
 
-###### This is an H6
+###### C'est un H6
 ```
 
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+Optionnellement, vous pouvez "fermer" un entete atx-style. C'est purement cosmetic — Vous pouvez l utiliser si vous pensez que sa rend mieux. Les diéses de fermeture, ne dont pas obligatoirement du même nombre. ( le nombre de dièses qui ouvre de termine l'importance de l' entete) :
 
 ```
-# This is an H1 #
+# C'est un H1 #
 
-## This is an H2 ##
+## C'est un H2 ##
 
-### This is an H3 ######
+### C'est un H3 ######
 ```
 
 
 ---
 
-Here's a quiz about markdown titles.
+Voici un questionnaire sur les titres markdown.
 
-Select the valid headers:
+Selectionne le header valide:
 - [x] `# hello`
 - [ ] `#hello`
 
-> Headers need space between the hash characters and the text.
+> Le Header a besoin d'un espace entre le caractère dièse est le texte.
 
-Select the valid headers:
+Selectionne le header valide:
 - [ ]  
 ```
 test
@@ -60,8 +61,6 @@ test
 =======
 ```
 
-> Only '=' and '-' are accepted for underlining an header.
+> Seulement le '=' et '-' sont accepter pour souligné un header.
 
 ---
-
-
